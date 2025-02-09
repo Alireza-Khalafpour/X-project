@@ -13,7 +13,7 @@ const GetIP: React.FC = () => {
       .then((res) => {
         setIP(res.data)
         console.log(res)
-        alert(res?.data?.message)
+        // alert(res?.data?.message)
       } )
       .catch((err) => console.log(err));
   }
